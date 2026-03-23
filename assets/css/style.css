@@ -18,8 +18,16 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 
+
+h1, h2, h3 {
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+} 
 
 /* Header */
 header {
