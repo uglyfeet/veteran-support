@@ -36,11 +36,33 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow:0 2px 2px #3a3a3a;
+    box-shadow:0 2px 2px white;
     display: flex;
     justify-content: space-between; 
     align-items: baseline; 
 }
+
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+
 
 /* Main content */
 main {
@@ -48,6 +70,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
+
 
 /* Footer */
 footer {
