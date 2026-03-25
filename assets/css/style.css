@@ -4,23 +4,22 @@
 
 
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* wildcard selector to override default styles set by the browser */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* General styles */
+/* general styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
+    /* generic project styles */
     color: white;
     font-family: 'Lato', sans-serif;
 }
-
 
 h1, h2, h3 {
     font-family: oswald, sans-serif;
@@ -28,20 +27,18 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: white;
 } 
-
-/* Header */
-header {
-    background-color: lightblue;
+/* header */
+header { 
+    background-color:olivedrab ;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow:0 2px 2px white;
+    box-shadow:0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between; 
     align-items: baseline; 
 }
-
 
 header a {
     text-decoration: none;
@@ -59,13 +56,13 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* nav bar styles with dropdown toggle */
 nav  {
     position: absolute;
-    background-color: lightblue;
+    background-color: olivedrab;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -86,14 +83,12 @@ nav  {
 .nav-toggle-label {
     font-size: 2rem;
 }
-
-
-
-/* Main content */
+/* main */
 main {
-    /* Make main element take up any surplus space to push footer down */
+
+    /* make the main content area grow to fill the available space */
     flex: 1 0 auto;
-    margin-top: 47px; /* height of the header */ 
+    margin-top: 47px; /* height of the header */
 }
 /* hero section */
 #hero {
@@ -104,7 +99,7 @@ main {
 }
 #cover-text {
     /* rgba value for a semi-transparent background */
-    background-color: rgba(241, 109, 107, 0.7);
+    background-color: rgba(0, 0, 128, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -119,7 +114,8 @@ main {
 }
 
 
-/* Footer */
+
+/* footer */
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -130,7 +126,7 @@ main {
 } 
 
 #social-networks i {
-    color: olivedrab;
+    color: navy
     font-size: 160%;
     padding: 5%;
 }
@@ -173,6 +169,6 @@ main {
 }
 @media screen and (min-width: 992px) {
     #menu a:hover { 
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #3a3a3a;
     }
 }
