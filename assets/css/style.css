@@ -348,6 +348,7 @@ main {
     }
 
     #signup-form {
+        background-image: url("../images/plane8.JPG");
         max-width: 400px;
         position: absolute;
         left: 10%;
