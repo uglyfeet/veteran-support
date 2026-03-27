@@ -295,9 +295,13 @@ main {
 }
 #emergency-services {
     background-color: lightblue;
-    color: white;
+    color: black;
     padding: 20px;
 } 
+
+#crisis {
+    color: red;
+}
 
 #samaritans {
     background-color: navy;
@@ -305,7 +309,7 @@ main {
     padding: 20px;
 }
 
-#government {
+#combat-stress {
     background-color: olivedrab;
     color: white;
     padding: 20px;
@@ -313,7 +317,7 @@ main {
 
 #call-us {
     background-color: #3a3a3a;
-    color: black;
+    color: white;
     padding: 20px;
 }
 
