@@ -382,6 +382,13 @@ main {
         right: 50px;
     }
 
+      /* Help */
+    #help-cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
+
     /* Reasons section */
     #benefits-physical,
     #benefits-mental {
