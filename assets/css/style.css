@@ -29,6 +29,12 @@ h1, h2, h3 {
     display: none;
 }
 
+.phone-link {
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: underline;
+}
 /* Header */
 header {
     background-color: olivedrab;
