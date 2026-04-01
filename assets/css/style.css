@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* General styles */
+/********************* General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -29,13 +29,15 @@ h1, h2, h3 {
     display: none;
 }
 
+/* this class is used to style the phone number links which are changed by safari */
 .phone-link {
     color: red;
     font-weight: bold;
     background-color: white;
     text-decoration: underline;
 }
-/* Header */
+
+/********************* Header styles */
 header {
     background-color: olivedrab;
     padding: 0 1rem;
@@ -92,7 +94,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Main content */
+/********************* Main content styles for every page */
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -103,6 +105,7 @@ main {
     flex-direction: column;
 }
 
+/********************* Main content styles for the home */
 /* Hero section */
 #hero {
     height: 600px;
@@ -127,7 +130,7 @@ main {
     color: #ffffff;
 }
 
-/* Reasons section */
+/* what we offer section */
 #reasons {
     background-color: lightblue;
     width: 90%;
@@ -177,7 +180,7 @@ main {
     justify-content: center;
 }
 
-/* Meetup Times section */
+/* events section */
 #meetups h2 {
     color:black;
     margin-bottom: 20px;
@@ -210,7 +213,8 @@ main {
     color: #fafafa;
 }
 
-/* Gallery page */
+/********************* Main content styles for the gallery page */
+
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -220,7 +224,8 @@ main {
     line-height: 0;
 }
 
-/* Form */
+/********************* Main content styles for the signup page */
+
 #signup {
     background-image: url("../images/plane8.JPG");
     background-size: cover;
@@ -271,7 +276,8 @@ main {
     color: #fafafa;
 }
 
-/*help page*/
+/********************* Main content styles for the help page */
+
 #help {
     height: 600px;
     width: 100%;
@@ -339,7 +345,8 @@ main {
     padding: 20px;
 }
 
-/* Footer */
+/********************* Footer content styles */
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -355,7 +362,9 @@ main {
     color: navy;
 }
 
-/* Media query: large or landscape phones (576px and up) */
+/********************* all media queries follow here*/
+
+/********************** Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
@@ -363,7 +372,7 @@ main {
     }
 }
 
-/* Media query: tablets and larger (768px and up) */
+/********************* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -458,7 +467,7 @@ main {
     }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
+/********************* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid white;
