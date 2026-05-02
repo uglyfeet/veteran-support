@@ -115,7 +115,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/guards.jpg") no-repeat center center/cover;
+    background: url("../images/Queens-guards-on-parade.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -184,7 +184,7 @@ main {
 }
 
 #times {
-    background: url('../images/patrol5.JPG') no-repeat center/cover;
+    background: url('../images/patrolling-soldier-in-sunset.JPG') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -222,7 +222,7 @@ main {
 /********************* Main content styles for the signup page */
 
 #signup {
-    background-image: url("../images/plane8.JPG");
+    background-image: url("../images/low-flying-hercules.JPG");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
